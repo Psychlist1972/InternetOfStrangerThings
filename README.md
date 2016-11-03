@@ -2,4 +2,4 @@
 My Internet of Stranger Things demo
 
 
-Coming after Halloween.
+Project files and source coming soon. (In November)
