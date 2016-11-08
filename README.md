@@ -11,4 +11,6 @@ The bot itself will also need to be hosted in an internet-accessible location su
 This video shows the wall in action and gives you a high-level overview of the steps required.
 https://channel9.msdn.com/Shows/Internet-of-Things-Show/IoTShowStrangerThings
 
+<iframe src="https://channel9.msdn.com/Shows/Internet-of-Things-Show/IoTShowStrangerThings/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
+
 The blog series is also linked to via the video above.
