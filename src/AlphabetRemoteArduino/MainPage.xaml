@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="AlphabetRemoteArduino.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AlphabetRemoteArduino"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+
+            <StackPanel Grid.Row="0" Orientation="Vertical" VerticalAlignment="Center">
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="50">
+                    <Button x:Name="DictateEcho" Content="&#xE720;" FontFamily="Segoe MDL2 Assets" FontSize="45" VerticalAlignment="Bottom" HorizontalAlignment="Left" 
+                        Width="100" Height="78" Margin="0,0,10,0" Click="DictateEcho_Click"/>
+                    <TextBox x:Name="EchoText" Header="Echo back" FontSize="50" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                     Margin="110,0,110,0"/>
+                    <Button x:Name="SendEcho" Content="&#xE8BD;" FontFamily="Segoe MDL2 Assets" FontSize="45" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
+                        Width="100" Height="78" Margin="10,0,0,0" Click="SendEcho_Click"/>
+                </Grid>
+
+
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="50">
+                    <Button x:Name="DictateQuestion" Content="&#xE720;" FontFamily="Segoe MDL2 Assets" FontSize="45" VerticalAlignment="Bottom" HorizontalAlignment="Left" 
+                        Width="100" Height="78" Margin="0,0,10,0" Click="DictateQuestion_Click" />
+                    <TextBox x:Name="QuestionText" Header="Ask the Upside Down a question" FontSize="50" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                     Margin="110,0,110,0"/>
+                    <Button x:Name="SendQuestion" Content="&#xE8BD;" FontFamily="Segoe MDL2 Assets" FontSize="45" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
+                        Width="100" Height="78" Margin="10,0,0,0" Click="SendQuestion_Click" />
+                </Grid>
+
+                <CheckBox Content="Auto-send" Margin="110,0,0,0" IsChecked="True" x:Name="AutoSend" Visibility="Collapsed"/>
+            </StackPanel>
+
+
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Button x:Name="TestSendAlphabetButton" Content="Send Alphabet"  Margin="10" FontSize="20" Click="TestSendAlphabetButton_Click"/>
+
+                <Button x:Name="TestNameButton" Content="What is my name?" Margin="20" FontSize="20" Click="TestNameButton_Click" />
+
+                <Button x:Name="TestRunButton" Content="What should I do now?"  Margin="20" FontSize="20" Click="TestRunButton_Click" />
+
+                <ToggleButton x:Name="ToggleMidi" Content="Toggle MIDI" Margin="20" FontSize="20" 
+                          Checked="ToggleMidi_Checked"
+                          Unchecked="ToggleMidi_Unchecked"/>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Page>
