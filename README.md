@@ -34,5 +34,8 @@ The blog series may be found here:
 - Part 2: https://blogs.windows.com/buildingapps/2016/11/03/the-internet-of-stranger-things-wall-part-2-wall-construction-and-music/
 - Part 3: https://blogs.windows.com/buildingapps/2016/11/04/the-internet-of-stranger-things-wall-part-3-voice-recognition-and-intelligence/
 
+# Questions / comments?
+
+Post here in discussion / issues, or tweet me @Pete_Brown http://twitter.com/Pete_Brown
 
 
