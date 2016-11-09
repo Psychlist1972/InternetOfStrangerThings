@@ -2,7 +2,19 @@
 
 This demo is something I built for a couple keynotes in Fall 2016, based upon the great Netflix series Stranger Things. It includes embedded technology, UWP speech recognition, some basic electronics, natural language understanding via LUIS, and a bot via the Microsoft Bot Framework. To round it all out, we even have a little bit of carpentry and wallpaper hanging. :)
 
+The intent here is for this to be something you can learn from when building an intelligence-connected IoT device or Windows app.
+
 This is not a ready-to-run project. Instead, it requires a number of steps before you can run it. In the solution, simply search for TODO in all files. There are several keys and IDs you'll need to add based on your LUIS and Bot Framework settings. Some are in code, and some are in the web.config. 
+
+You will need:
+
+- An Azure or other service to host the bot
+- A Bot Framework account to register the bot
+- A LUIS.ai account for natural language processing
+- A bunch of LED Christmas lights (see blog series)
+- Skills in working with wood and electronics
+- An Arduino, a bunch of wire, and the LED controllers detailed in the blog series.
+- A PC (or Windows Phone, although I haven't tested with that) to run the UWP app.
 
 The bot itself will also need to be hosted in an internet-accessible location such as Microsoft Azure, and then registered on http://dev.botframework.com and then enabled on the Direct Line channel.
 
