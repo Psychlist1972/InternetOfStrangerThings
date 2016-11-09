@@ -2,6 +2,8 @@
 
 This demo is something I built for a couple keynotes in Fall 2016, based upon the great Netflix series Stranger Things. It includes embedded technology, UWP speech recognition, some basic electronics, natural language understanding via LUIS, and a bot via the Microsoft Bot Framework. To round it all out, we even have a little bit of carpentry and wallpaper hanging. :)
 
+Hosted on GitHub just to make it easy for you to get the source. I don't expect to do any updates to this code.
+
 ![](https://c2.staticflickr.com/6/5604/30383497196_407b6e2f09_o.gif)
 
 ![](https://c1.staticflickr.com/9/8556/30302533082_fa330c3f92_o.gif)
