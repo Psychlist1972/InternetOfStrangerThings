@@ -28,6 +28,8 @@ This video shows the wall in action and gives you a high-level overview of the s
 
 - https://channel9.msdn.com/Shows/Internet-of-Things-Show/IoTShowStrangerThings
 
+# Blog Series
+
 The blog series may be found here:
 
 - Part 1: https://blogs.windows.com/buildingapps/2016/10/31/the-internet-of-stranger-things-wall-part-1-introduction-and-remote-wiring/
