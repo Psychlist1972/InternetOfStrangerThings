@@ -30,7 +30,7 @@ This video shows the wall in action and gives you a high-level overview of the s
 
 # Blog Series
 
-The blog series may be found here:
+The blog series may be found on the Windows Developer blog. It includes a number of photos, wiring diagrams, MIDI notes, and much more.
 
 - Part 1: https://blogs.windows.com/buildingapps/2016/10/31/the-internet-of-stranger-things-wall-part-1-introduction-and-remote-wiring/
 - Part 2: https://blogs.windows.com/buildingapps/2016/11/03/the-internet-of-stranger-things-wall-part-2-wall-construction-and-music/
